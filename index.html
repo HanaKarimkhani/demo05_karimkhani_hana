@@ -19,14 +19,101 @@
     <!-- Your HTML Layout go here -->
     <!------------------------------>
     <!-- Stuff for body goes here -->
+    <!--adding nav bar hear-->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Never Late to Try</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Explore Activities</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Saved</a>
+    </li>
+</ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Welcome to Never Late to Try!</h1>
 
+        <p class="col-md-8 fs-4">
+            Discover new activities and start your next adventure.
+        </p>
+
+        <button class="btn btn-primary btn-lg" type="button">
+            Login / Signup
+        </button>
+    </div>
+</div>
+
+<!-- Activity Cards -->
+<div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+            <div class="card h-100">
+
+                <img src="./images/dancing.jpg" class="card-img-top" alt="Dancing class">
+
+                <div class="card-body">
+                    <h5 class="card-title">Dance Classes</h5>
+                    <p class="card-text">Try a beginner dance class.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+
+                <img src="./images/motorcycle.jpg" class="card-img-top" alt="Motorcycle training">
+
+                <div class="card-body">
+                    <h5 class="card-title">Motorcycle Training</h5>
+                    <p class="card-text">Learn how to ride a motorcycle.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+
+                <img src="./images/pottery.jpg" class="card-img-top" alt="Pottery workshop">
+                
+                <div class="card-body">
+                    <h5 class="card-title">Pottery Workshop</h5>
+                    <p class="card-text">Discover a new creative hobby.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    </div>
+</div>
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script> 
 
 </body>
 
